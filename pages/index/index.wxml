@@ -1,0 +1,206 @@
+<van-search value="{{ value }}" placeholder="请输入搜索关键词" />
+
+<view class="navbar">
+  <view class="navbar-item" wx:for="{{navbar}}" wx:for-index="idx" data-idx="{{idx}}" 
+  bindtap="swichNav">
+    <text class="navbar-text {{currentNavbar==idx ? 'active' : ''}}">{{item}}</text>
+  </view>
+</view>
+
+<!-- TOP LIST -->
+<scroll-view class="hot-item-container {{currentNavbar==0 ? '' : 'hidden'}}" style="height: {{systemInfo.windowHeight}}px;"
+  scroll-y="true">
+  <block wx:for="{{data_champions_ranking_top}}" wx:key="key">
+    <van-card
+    id="{{item.data_champion_ranking_id}}"
+  price="{{item.data_champions_ranking_tier}}"
+  desc="{{item.data_champion_ranking_name}}"
+  title="{{item.data_champion_ranking_name}}"
+  thumb="{{item.data_champion_ranking_img}}"
+  tag="{{item.data_champion_ranking_num}}"
+  win_num="{{item.data_champion_ranking_winrate}}"
+  pick_num="{{item.data_champion_ranking_pick}}"
+  ban_num="{{item.data_champion_ranking_ban}}"
+
+  data-pos="{{item.data_champion_ranking_pos}}"
+  bindtap="onItemClick"
+  >
+  <view slot="tags">
+    <van-tag
+    wx:for="{{item.data_champion_ranking_pos}}"
+    
+    wx:key='key'
+    type='primary'>{{item}}</van-tag>
+  </view>
+  <view slot="footer">
+   <van-rate
+  value="{{ value }}"
+  size="{{ 15 }}"
+  count="{{ 5 }}"
+  icon="like"
+  void-icon="like"
+  color="#07c160"
+  void-color="#ceefe8"
+  bind:change="onChange"
+    />
+   </view >
+   </van-card>
+  </block>
+  
+</scroll-view>
+
+<!-- JNG LIST -->
+<scroll-view class="latest-item-container {{currentNavbar==1 ? '' : 'hidden'}}" style="height: {{systemInfo.windowHeight}}px;" scroll-y="true" >
+  <block wx:for="{{data_champions_ranking_jungle}}" wx:key="key">
+    <van-card
+  price="{{item.data_champions_ranking_tier}}"
+  desc="{{item.data_champion_ranking_name}}"
+  title="{{item.data_champion_ranking_name}}"
+  thumb="{{item.data_champion_ranking_img}}"
+  
+  tag="{{item.data_champion_ranking_num}}"
+  win_num="{{item.data_champion_ranking_winrate}}"
+  pick_num="{{item.data_champion_ranking_pick}}"
+  ban_num="{{item.data_champion_ranking_ban}}"
+  data-pos="{{item.data_champion_ranking_pos}}"
+  id="{{item.data_champion_ranking_name}}"
+  bindtap="onItemClick"
+  >
+  <view slot="tags">
+    <van-tag bindtap='pos_data'
+    wx:for="{{item.data_champion_ranking_pos}}"
+    wx:key='key'
+    type='primary'>{{item}}</van-tag>
+  </view>
+  <view slot="footer">
+   <van-rate
+  value="{{ value }}"
+  size="{{ 15 }}"
+  count="{{ 5 }}"
+  icon="like"
+  void-icon="like"
+  color="#07c160"
+  void-color="#ceefe8"
+  bind:change="onChange"
+    />
+   </view >
+   </van-card>
+  </block>
+</scroll-view>
+
+<!-- Mid LIST -->
+<scroll-view class="latest-item-container {{currentNavbar==2 ? '' : 'hidden'}}" style="height: {{systemInfo.windowHeight}}px;" scroll-y="true" >
+  <block wx:for="{{data_champions_ranking_mid}}" wx:key="key">
+    <van-card
+  price="{{item.data_champions_ranking_tier}}"
+  desc="{{item.data_champion_ranking_name}}"
+  title="{{item.data_champion_ranking_name}}"
+  thumb="{{item.data_champion_ranking_img}}"
+  
+  tag="{{item.data_champion_ranking_num}}"
+  win_num="{{item.data_champion_ranking_winrate}}"
+  pick_num="{{item.data_champion_ranking_pick}}"
+  ban_num="{{item.data_champion_ranking_ban}}"
+  data-pos="{{item.data_champion_ranking_pos}}"
+  id="{{item.data_champion_ranking_name}}"
+  bindtap="onItemClick"
+  >
+  <view slot="tags">
+    <van-tag bindtap='pos_data'
+    wx:for="{{item.data_champion_ranking_pos}}"
+    wx:key='key'
+    type='primary'>{{item}}</van-tag>
+  </view>
+  <view slot="footer">
+   <van-rate
+  value="{{ value }}"
+  size="{{ 15 }}"
+  count="{{ 5 }}"
+  icon="like"
+  void-icon="like"
+  color="#07c160"
+  void-color="#ceefe8"
+  bind:change="onChange"
+    />
+   </view >
+   </van-card>
+  </block>
+</scroll-view>
+
+<!-- ADC LIST -->
+<scroll-view class="latest-item-container {{currentNavbar==3 ? '' : 'hidden'}}" style="height: {{systemInfo.windowHeight}}px;" scroll-y="true" >
+  <block wx:for="{{data_champions_ranking_adc}}" wx:key="key">
+    <van-card
+  price="{{item.data_champions_ranking_tier}}"
+  desc="{{item.data_champion_ranking_name}}"
+  title="{{item.data_champion_ranking_name}}"
+  thumb="{{item.data_champion_ranking_img}}"
+  
+  tag="{{item.data_champion_ranking_num}}"
+  win_num="{{item.data_champion_ranking_winrate}}"
+  pick_num="{{item.data_champion_ranking_pick}}"
+  ban_num="{{item.data_champion_ranking_ban}}"
+  data-pos="{{item.data_champion_ranking_pos}}"
+  id="{{item.data_champion_ranking_name}}"
+  bindtap="onItemClick"
+  >
+  <view slot="tags">
+    <van-tag bindtap='pos_data'
+    wx:for="{{item.data_champion_ranking_pos}}"
+    wx:key='key'
+    type='primary'>{{item}}</van-tag>
+  </view>
+  <view slot="footer">
+   <van-rate
+  value="{{ value }}"
+  size="{{ 15 }}"
+  count="{{ 5 }}"
+  icon="like"
+  void-icon="like"
+  color="#07c160"
+  void-color="#ceefe8"
+  bind:change="onChange"
+    />
+   </view >
+   </van-card>
+  </block>
+</scroll-view>
+
+<!-- SUPPORT LIST -->
+<scroll-view class="latest-item-container {{currentNavbar==4 ? '' : 'hidden'}}" style="height: {{systemInfo.windowHeight}}px;" scroll-y="true" >
+<block wx:for="{{data_champions_ranking_support}}" wx:key="key">
+    <van-card
+  price="{{item.data_champions_ranking_tier}}"
+  desc="{{item.data_champion_ranking_name}}"
+  title="{{item.data_champion_ranking_name}}"
+  thumb="{{item.data_champion_ranking_img}}"
+  
+  tag="{{item.data_champion_ranking_num}}"
+  win_num="{{item.data_champion_ranking_winrate}}"
+  pick_num="{{item.data_champion_ranking_pick}}"
+  ban_num="{{item.data_champion_ranking_ban}}"
+  data-pos="{{item.data_champion_ranking_pos}}"
+  id="{{item.data_champion_ranking_name}}"
+  bindtap="onItemClick"
+  >
+  <view slot="tags">
+    <van-tag bindtap='pos_data'
+    wx:for="{{item.data_champion_ranking_pos}}"
+    wx:key='key'
+    type='primary'>{{item}}</van-tag>
+  </view>
+  <view slot="footer">
+   <van-rate
+  value="{{ value }}"
+  size="{{ 15 }}"
+  count="{{ 5 }}"
+  icon="like"
+  void-icon="like"
+  color="#07c160"
+  void-color="#ceefe8"
+  bind:change="onChange"
+    />
+   </view >
+   </van-card>
+  </block>
+</scroll-view>

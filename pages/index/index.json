@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "van-search": "../../utils/dist/search/index",
+    "van-card": "../../utils/dist/card/index",
+    "van-tag": "../../utils/dist/tag/index",
+    "van-rate": "../../utils/dist/rate/index",
+    "van-tab": "../../utils/dist/tab/index",
+    "van-tabs": "../../utils/dist/tabs/index"
+
+  }
+}

@@ -1,0 +1,121 @@
+/* pages/summoner_page/index.wxss */
+
+page {
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  margin: 0 auto;
+  height: 30%;
+  width: 100%;
+}
+
+.bg-blur {
+  background: url(https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3523376988,1285761647&fm=26&gp=0.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(4px);
+  height: 100%;
+  z-index: -1;
+}
+
+.content {
+  text-align: center;
+  font-size: 20px;
+  color: snow;
+  font-weight: bold;
+  left: 0;
+  right: 0;
+  margin-top: -250rpx;
+  position: absolute;
+  z-index: 2;
+}
+
+.font-content {
+  position: absolute;
+  transform: translate3d(-50%, -50%, 0);
+  
+  /* border:2px solid red; */
+}
+
+.header_view_pic {
+  height: 70px;
+  width: 70px;
+  position: relative;
+  margin: 0 auto;
+  left: 8%;
+  right: 0;
+  top: -60%;
+}
+
+.header_img_pic {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px #f00;
+}
+
+.container{
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  background-color: black;
+  flex-wrap: row wrap;
+  position: absolute;
+  z-index: 3;
+}
+
+.content_stats{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  background-color:  #fafafa;
+  flex: auto;
+  justify-content:space-around;
+}
+.content_stats_base{
+  text-align: center;
+  width: 100%;
+  font-size: 12px;
+  margin: 10rpx;
+}
+.content_stats_detail{
+  text-align: center;
+  font-size: 12px;
+  margin: 10rpx;
+}
+.content_skill{
+  text-align: center;
+  margin-right: 10rpx;
+  margin-left: 10rpx;
+}
+
+.img_item{
+  width: 80rpx;
+  height: 80rpx;
+}
+.img_rune{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+}
+
+.view_item{
+  display: flex;
+  flex-direction: row;
+}
+
+.panel-margin{
+  margin-bottom:  40rpx;
+}
+
+.rune_list{
+  font-size: 25rpx;
+  font-weight: lighter;
+  margin-left: 40rpx;
+  padding-left: 20rpx;
+}
+.rune_panel{
+  text-align: center;
+}

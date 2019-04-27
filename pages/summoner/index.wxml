@@ -1,0 +1,39 @@
+<van-search value="{{ value }}" placeholder="请输入搜索关键词" />
+
+<!-- SUMMONER LIST -->
+<scroll-view class="hot-item-container {{currentNavbar==0 ? '' : 'hidden'}}" style="height: {{systemInfo.windowHeight}}px;"
+  scroll-y="true">
+  <block wx:for="{{data_summoner_ranking}}" wx:key="key">
+    <van-card
+  price="{{item.data_summoner_ranking_tier}}"
+  desc="{{item.data_summoner_ranking_name}}"
+  title="{{item.data_summoner_ranking_name}}"
+  thumb="{{item.data_summoner_ranking_img}}"
+  
+  tag="{{item.data_summoner_ranking_num}}"
+  win_num="{{item.data_summoner_ranking_win_times}}"
+  pick_num="{{item.data_summoner_ranking_lose_times}}"
+  ban_num="{{item.data_summoner_ranking_winrate}}"
+  bindtap="onItemClick"
+  >
+  <view slot="tags">
+    <van-tag>{{item.data_summoner_ranking_lp}}</van-tag>
+    <van-tag>{{item.data_summoner_ranking_level}}</van-tag>
+  </view>
+  <view slot="footer">
+   <van-rate
+  value="{{ value }}"
+  size="{{ 15 }}"
+  count="{{ 5 }}"
+  icon="like"
+  void-icon="like"
+  color="#07c160"
+  void-color="#ceefe8"
+  bind:change="onChange"
+    />
+   </view >
+   </van-card>
+  </block>
+  
+</scroll-view>
+

@@ -1,0 +1,469 @@
+[{
+	"data_champion_ranking_name": "hecarim",
+	"data_champion_ranking_num": "1",
+	"data_champion_ranking_url": "https://www.op.gg/champion/hecarim/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Hecarim.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["top", "jungle"],
+	"data_champion_ranking_winrate": 53.82,
+	"data_champion_ranking_pick": 8.13,
+	"data_champions_ranking_tier": "1"
+}, {
+	"data_champion_ranking_name": "riven",
+	"data_champion_ranking_num": "2",
+	"data_champion_ranking_url": "https://www.op.gg/champion/riven/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Riven.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["top"],
+	"data_champion_ranking_winrate": 53.31,
+	"data_champion_ranking_pick": 11.5,
+	"data_champions_ranking_tier": "1"
+}, {
+	"data_champion_ranking_name": "kayle",
+	"data_champion_ranking_num": "3",
+	"data_champion_ranking_url": "https://www.op.gg/champion/kayle/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Kayle.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["top", "middle"],
+	"data_champion_ranking_winrate": 52.35,
+	"data_champion_ranking_pick": 9.57,
+	"data_champions_ranking_tier": "1"
+}, {
+	"data_champion_ranking_name": "jax",
+	"data_champion_ranking_num": "4",
+	"data_champion_ranking_url": "https://www.op.gg/champion/jax/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Jax.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["top", "jungle"],
+	"data_champion_ranking_winrate": 53.02,
+	"data_champion_ranking_pick": 7.74,
+	"data_champions_ranking_tier": "1"
+}, {
+	"data_champion_ranking_name": "vladimir",
+	"data_champion_ranking_num": "5",
+	"data_champion_ranking_url": "https://www.op.gg/champion/vladimir/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Vladimir.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["top", "middle"],
+	"data_champion_ranking_winrate": 49.9,
+	"data_champion_ranking_pick": 10.0,
+	"data_champions_ranking_tier": "1"
+}, {
+	"data_champion_ranking_name": "vayne",
+	"data_champion_ranking_num": "6",
+	"data_champion_ranking_url": "https://www.op.gg/champion/vayne/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Vayne.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["bottom", "top"],
+	"data_champion_ranking_winrate": 52.52,
+	"data_champion_ranking_pick": 3.62,
+	"data_champions_ranking_tier": "2"
+}, {
+	"data_champion_ranking_name": "akali",
+	"data_champion_ranking_num": "7",
+	"data_champion_ranking_url": "https://www.op.gg/champion/akali/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Akali.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["top", "middle"],
+	"data_champion_ranking_winrate": 49.19,
+	"data_champion_ranking_pick": 9.73,
+	"data_champions_ranking_tier": "2"
+}, {
+	"data_champion_ranking_name": "jayce",
+	"data_champion_ranking_num": "8",
+	"data_champion_ranking_url": "https://www.op.gg/champion/jayce/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Jayce.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["top", "middle"],
+	"data_champion_ranking_winrate": 49.34,
+	"data_champion_ranking_pick": 8.58,
+	"data_champions_ranking_tier": "2"
+}, {
+	"data_champion_ranking_name": "irelia",
+	"data_champion_ranking_num": "9",
+	"data_champion_ranking_url": "https://www.op.gg/champion/irelia/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Irelia.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["top", "middle"],
+	"data_champion_ranking_winrate": 48.84,
+	"data_champion_ranking_pick": 13.13,
+	"data_champions_ranking_tier": "2"
+}, {
+	"data_champion_ranking_name": "olaf",
+	"data_champion_ranking_num": "10",
+	"data_champion_ranking_url": "https://www.op.gg/champion/olaf/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Olaf.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["top", "jungle"],
+	"data_champion_ranking_winrate": 53.64,
+	"data_champion_ranking_pick": 2.52,
+	"data_champions_ranking_tier": "2"
+}, {
+	"data_champion_ranking_name": "darius",
+	"data_champion_ranking_num": "11",
+	"data_champion_ranking_url": "https://www.op.gg/champion/darius/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Darius.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["top"],
+	"data_champion_ranking_winrate": 48.9,
+	"data_champion_ranking_pick": 6.32,
+	"data_champions_ranking_tier": "2"
+}, {
+	"data_champion_ranking_name": "yasuo",
+	"data_champion_ranking_num": "12",
+	"data_champion_ranking_url": "https://www.op.gg/champion/yasuo/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Yasuo.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["middle", "top"],
+	"data_champion_ranking_winrate": 49.2,
+	"data_champion_ranking_pick": 4.64,
+	"data_champions_ranking_tier": "2"
+}, {
+	"data_champion_ranking_name": "renekton",
+	"data_champion_ranking_num": "13",
+	"data_champion_ranking_url": "https://www.op.gg/champion/renekton/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Renekton.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["top", "middle"],
+	"data_champion_ranking_winrate": 49.65,
+	"data_champion_ranking_pick": 6.1,
+	"data_champions_ranking_tier": "2"
+}, {
+	"data_champion_ranking_name": "kennen",
+	"data_champion_ranking_num": "14",
+	"data_champion_ranking_url": "https://www.op.gg/champion/kennen/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Kennen.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["top", "middle"],
+	"data_champion_ranking_winrate": 51.27,
+	"data_champion_ranking_pick": 4.52,
+	"data_champions_ranking_tier": "2"
+}, {
+	"data_champion_ranking_name": "yorick",
+	"data_champion_ranking_num": "15",
+	"data_champion_ranking_url": "https://www.op.gg/champion/yorick/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Yorick.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["top"],
+	"data_champion_ranking_winrate": 50.58,
+	"data_champion_ranking_pick": 2.4,
+	"data_champions_ranking_tier": "2"
+}, {
+	"data_champion_ranking_name": "kled",
+	"data_champion_ranking_num": "16",
+	"data_champion_ranking_url": "https://www.op.gg/champion/kled/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Kled.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["top", "middle"],
+	"data_champion_ranking_winrate": 51.54,
+	"data_champion_ranking_pick": 2.97,
+	"data_champions_ranking_tier": "2"
+}, {
+	"data_champion_ranking_name": "gangplank",
+	"data_champion_ranking_num": "17",
+	"data_champion_ranking_url": "https://www.op.gg/champion/gangplank/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Gangplank.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["top"],
+	"data_champion_ranking_winrate": 50.52,
+	"data_champion_ranking_pick": 3.59,
+	"data_champions_ranking_tier": "2"
+}, {
+	"data_champion_ranking_name": "teemo",
+	"data_champion_ranking_num": "18",
+	"data_champion_ranking_url": "https://www.op.gg/champion/teemo/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Teemo.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["top"],
+	"data_champion_ranking_winrate": 49.8,
+	"data_champion_ranking_pick": 3.17,
+	"data_champions_ranking_tier": "2"
+}, {
+	"data_champion_ranking_name": "urgot",
+	"data_champion_ranking_num": "19",
+	"data_champion_ranking_url": "https://www.op.gg/champion/urgot/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Urgot.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["top", "jungle"],
+	"data_champion_ranking_winrate": 48.58,
+	"data_champion_ranking_pick": 5.25,
+	"data_champions_ranking_tier": "3"
+}, {
+	"data_champion_ranking_name": "pantheon",
+	"data_champion_ranking_num": "20",
+	"data_champion_ranking_url": "https://www.op.gg/champion/pantheon/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Pantheon.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["jungle", "top", "middle"],
+	"data_champion_ranking_winrate": 51.12,
+	"data_champion_ranking_pick": 2.05,
+	"data_champions_ranking_tier": "3"
+}, {
+	"data_champion_ranking_name": "garen",
+	"data_champion_ranking_num": "21",
+	"data_champion_ranking_url": "https://www.op.gg/champion/garen/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Garen.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["top"],
+	"data_champion_ranking_winrate": 50.01,
+	"data_champion_ranking_pick": 2.89,
+	"data_champions_ranking_tier": "3"
+}, {
+	"data_champion_ranking_name": "rengar",
+	"data_champion_ranking_num": "22",
+	"data_champion_ranking_url": "https://www.op.gg/champion/rengar/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Rengar.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["top", "jungle"],
+	"data_champion_ranking_winrate": 50.5,
+	"data_champion_ranking_pick": 3.31,
+	"data_champions_ranking_tier": "3"
+}, {
+	"data_champion_ranking_name": "rumble",
+	"data_champion_ranking_num": "23",
+	"data_champion_ranking_url": "https://www.op.gg/champion/rumble/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Rumble.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["top", "middle"],
+	"data_champion_ranking_winrate": 51.0,
+	"data_champion_ranking_pick": 3.3,
+	"data_champions_ranking_tier": "3"
+}, {
+	"data_champion_ranking_name": "camille",
+	"data_champion_ranking_num": "24",
+	"data_champion_ranking_url": "https://www.op.gg/champion/camille/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Camille.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["top", "jungle"],
+	"data_champion_ranking_winrate": 51.31,
+	"data_champion_ranking_pick": 2.31,
+	"data_champions_ranking_tier": "3"
+}, {
+	"data_champion_ranking_name": "illaoi",
+	"data_champion_ranking_num": "25",
+	"data_champion_ranking_url": "https://www.op.gg/champion/illaoi/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Illaoi.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["top"],
+	"data_champion_ranking_winrate": 49.04,
+	"data_champion_ranking_pick": 2.52,
+	"data_champions_ranking_tier": "3"
+}, {
+	"data_champion_ranking_name": "fiora",
+	"data_champion_ranking_num": "26",
+	"data_champion_ranking_url": "https://www.op.gg/champion/fiora/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Fiora.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["top"],
+	"data_champion_ranking_winrate": 47.52,
+	"data_champion_ranking_pick": 5.03,
+	"data_champions_ranking_tier": "3"
+}, {
+	"data_champion_ranking_name": "sylas",
+	"data_champion_ranking_num": "27",
+	"data_champion_ranking_url": "https://www.op.gg/champion/sylas/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Sylas.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["middle", "top", "jungle"],
+	"data_champion_ranking_winrate": 45.98,
+	"data_champion_ranking_pick": 4.21,
+	"data_champions_ranking_tier": "3"
+}, {
+	"data_champion_ranking_name": "quinn",
+	"data_champion_ranking_num": "28",
+	"data_champion_ranking_url": "https://www.op.gg/champion/quinn/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Quinn.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["top"],
+	"data_champion_ranking_winrate": 52.27,
+	"data_champion_ranking_pick": 1.16,
+	"data_champions_ranking_tier": "3"
+}, {
+	"data_champion_ranking_name": "poppy",
+	"data_champion_ranking_num": "29",
+	"data_champion_ranking_url": "https://www.op.gg/champion/poppy/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Poppy.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["top", "jungle", "support"],
+	"data_champion_ranking_winrate": 49.54,
+	"data_champion_ranking_pick": 2.95,
+	"data_champions_ranking_tier": "4"
+}, {
+	"data_champion_ranking_name": "neeko",
+	"data_champion_ranking_num": "30",
+	"data_champion_ranking_url": "https://www.op.gg/champion/neeko/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Neeko.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["middle", "top", "support"],
+	"data_champion_ranking_winrate": 49.84,
+	"data_champion_ranking_pick": 1.23,
+	"data_champions_ranking_tier": "4"
+}, {
+	"data_champion_ranking_name": "karthus",
+	"data_champion_ranking_num": "31",
+	"data_champion_ranking_url": "https://www.op.gg/champion/karthus/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Karthus.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["jungle", "middle", "top"],
+	"data_champion_ranking_winrate": 51.68,
+	"data_champion_ranking_pick": 0.52,
+	"data_champions_ranking_tier": "4"
+}, {
+	"data_champion_ranking_name": "ryze",
+	"data_champion_ranking_num": "32",
+	"data_champion_ranking_url": "https://www.op.gg/champion/ryze/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Ryze.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["top", "middle"],
+	"data_champion_ranking_winrate": 46.25,
+	"data_champion_ranking_pick": 5.82,
+	"data_champions_ranking_tier": "4"
+}, {
+	"data_champion_ranking_name": "heimerdinger",
+	"data_champion_ranking_num": "33",
+	"data_champion_ranking_url": "https://www.op.gg/champion/heimerdinger/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Heimerdinger.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["top"],
+	"data_champion_ranking_winrate": 51.76,
+	"data_champion_ranking_pick": 0.83,
+	"data_champions_ranking_tier": "4"
+}, {
+	"data_champion_ranking_name": "nasus",
+	"data_champion_ranking_num": "34",
+	"data_champion_ranking_url": "https://www.op.gg/champion/nasus/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Nasus.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["top"],
+	"data_champion_ranking_winrate": 49.34,
+	"data_champion_ranking_pick": 2.26,
+	"data_champions_ranking_tier": "4"
+}, {
+	"data_champion_ranking_name": "dr. mundo",
+	"data_champion_ranking_num": "35",
+	"data_champion_ranking_url": "https://www.op.gg/champion/drmundo/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/DrMundo.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["top", "jungle"],
+	"data_champion_ranking_winrate": 47.08,
+	"data_champion_ranking_pick": 4.64,
+	"data_champions_ranking_tier": "4"
+}, {
+	"data_champion_ranking_name": "viktor",
+	"data_champion_ranking_num": "36",
+	"data_champion_ranking_url": "https://www.op.gg/champion/viktor/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Viktor.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["middle", "top"],
+	"data_champion_ranking_winrate": 50.2,
+	"data_champion_ranking_pick": 1.59,
+	"data_champions_ranking_tier": "4"
+}, {
+	"data_champion_ranking_name": "aatrox",
+	"data_champion_ranking_num": "37",
+	"data_champion_ranking_url": "https://www.op.gg/champion/aatrox/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Aatrox.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["top", "middle"],
+	"data_champion_ranking_winrate": 47.05,
+	"data_champion_ranking_pick": 3.55,
+	"data_champions_ranking_tier": "4"
+}, {
+	"data_champion_ranking_name": "tryndamere",
+	"data_champion_ranking_num": "38",
+	"data_champion_ranking_url": "https://www.op.gg/champion/tryndamere/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Tryndamere.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["top"],
+	"data_champion_ranking_winrate": 50.02,
+	"data_champion_ranking_pick": 1.18,
+	"data_champions_ranking_tier": "4"
+}, {
+	"data_champion_ranking_name": "shen",
+	"data_champion_ranking_num": "39",
+	"data_champion_ranking_url": "https://www.op.gg/champion/shen/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Shen.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["top", "support"],
+	"data_champion_ranking_winrate": 50.23,
+	"data_champion_ranking_pick": 1.79,
+	"data_champions_ranking_tier": "4"
+}, {
+	"data_champion_ranking_name": "malphite",
+	"data_champion_ranking_num": "40",
+	"data_champion_ranking_url": "https://www.op.gg/champion/malphite/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Malphite.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["top", "middle"],
+	"data_champion_ranking_winrate": 48.47,
+	"data_champion_ranking_pick": 2.19,
+	"data_champions_ranking_tier": "5"
+}, {
+	"data_champion_ranking_name": "volibear",
+	"data_champion_ranking_num": "41",
+	"data_champion_ranking_url": "https://www.op.gg/champion/volibear/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Volibear.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["top"],
+	"data_champion_ranking_winrate": 51.55,
+	"data_champion_ranking_pick": 0.73,
+	"data_champions_ranking_tier": "5"
+}, {
+	"data_champion_ranking_name": "sion",
+	"data_champion_ranking_num": "42",
+	"data_champion_ranking_url": "https://www.op.gg/champion/sion/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Sion.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["top"],
+	"data_champion_ranking_winrate": 49.38,
+	"data_champion_ranking_pick": 1.31,
+	"data_champions_ranking_tier": "5"
+}, {
+	"data_champion_ranking_name": "ornn",
+	"data_champion_ranking_num": "43",
+	"data_champion_ranking_url": "https://www.op.gg/champion/ornn/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Ornn.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["top"],
+	"data_champion_ranking_winrate": 47.34,
+	"data_champion_ranking_pick": 2.34,
+	"data_champions_ranking_tier": "5"
+}, {
+	"data_champion_ranking_name": "wukong",
+	"data_champion_ranking_num": "44",
+	"data_champion_ranking_url": "https://www.op.gg/champion/monkeyking/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/MonkeyKing.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["jungle", "top"],
+	"data_champion_ranking_winrate": 50.22,
+	"data_champion_ranking_pick": 0.66,
+	"data_champions_ranking_tier": "5"
+}, {
+	"data_champion_ranking_name": "mordekaiser",
+	"data_champion_ranking_num": "45",
+	"data_champion_ranking_url": "https://www.op.gg/champion/mordekaiser/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Mordekaiser.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["top"],
+	"data_champion_ranking_winrate": 48.62,
+	"data_champion_ranking_pick": 0.75,
+	"data_champions_ranking_tier": "5"
+}, {
+	"data_champion_ranking_name": "gnar",
+	"data_champion_ranking_num": "46",
+	"data_champion_ranking_url": "https://www.op.gg/champion/gnar/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Gnar.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["top"],
+	"data_champion_ranking_winrate": 48.03,
+	"data_champion_ranking_pick": 1.06,
+	"data_champions_ranking_tier": "5"
+}, {
+	"data_champion_ranking_name": "maokai",
+	"data_champion_ranking_num": "47",
+	"data_champion_ranking_url": "https://www.op.gg/champion/maokai/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Maokai.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["top"],
+	"data_champion_ranking_winrate": 49.07,
+	"data_champion_ranking_pick": 0.63,
+	"data_champions_ranking_tier": "5"
+}, {
+	"data_champion_ranking_name": "cho'gath",
+	"data_champion_ranking_num": "48",
+	"data_champion_ranking_url": "https://www.op.gg/champion/chogath/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/ChoGath.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["top", "middle"],
+	"data_champion_ranking_winrate": 48.32,
+	"data_champion_ranking_pick": 1.0,
+	"data_champions_ranking_tier": "5"
+}, {
+	"data_champion_ranking_name": "lissandra",
+	"data_champion_ranking_num": "49",
+	"data_champion_ranking_url": "https://www.op.gg/champion/lissandra/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Lissandra.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["middle", "top"],
+	"data_champion_ranking_winrate": 46.41,
+	"data_champion_ranking_pick": 0.53,
+	"data_champions_ranking_tier": "5"
+}, {
+	"data_champion_ranking_name": "singed",
+	"data_champion_ranking_num": "50",
+	"data_champion_ranking_url": "https://www.op.gg/champion/singed/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Singed.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["top"],
+	"data_champion_ranking_winrate": 47.5,
+	"data_champion_ranking_pick": 0.98,
+	"data_champions_ranking_tier": "5"
+}, {
+	"data_champion_ranking_name": "karma",
+	"data_champion_ranking_num": "51",
+	"data_champion_ranking_url": "https://www.op.gg/champion/karma/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Karma.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["support", "top", "middle"],
+	"data_champion_ranking_winrate": 47.92,
+	"data_champion_ranking_pick": 0.9,
+	"data_champions_ranking_tier": "5"
+}, {
+	"data_champion_ranking_name": "nautilus",
+	"data_champion_ranking_num": "52",
+	"data_champion_ranking_url": "https://www.op.gg/champion/nautilus/statistics/top",
+	"data_champion_ranking_img": "https://opgg-static.akamaized.net/images/lol/champion/Nautilus.png?image=w_140&v=1",
+	"data_champion_ranking_pos": ["support", "middle", "top"],
+	"data_champion_ranking_winrate": 46.97,
+	"data_champion_ranking_pick": 0.79,
+	"data_champions_ranking_tier": "5"
+}]

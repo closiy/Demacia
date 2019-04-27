@@ -1,0 +1,258 @@
+<!--pages/summoner_page/index.wxml-->
+<view class='header'>
+  <view class='header bg-blur'>
+  </view>
+  <view class='header_view_pic font-content'>
+    <image class='header_img_pic' src='{{champion_data.data_champion_img_url}}'>
+    </image>
+  </view>
+  <view class='content'>
+    {{champion_data.data_champion_key}}
+  </view>
+</view>
+<van-tabs active="{{ pos_list }}" bind:change="onChange" data-pos="{{item}}" swipeable sticky animated>
+  <block wx:for="{{pos_list}}" wx:key='key'>
+    <van-tab title="{{item}}">
+      <view class='content_stats'>
+        <!-- 基础信息，关于英雄位置 -->
+        <van-panel title="基本信息" desc="位置相关的基本信息" class='panel-margin'>
+          <view class='content_stats_base'>
+            <van-tag plain>位置: </van-tag>
+            <van-tag> {{champion_data.data_champion_pos_text}} </van-tag>
+            <van-tag plain>英雄位置相对选用率: </van-tag>
+            <van-tag> {{champion_data.data_champion_pos_rate}} </van-tag>
+            <van-tag plain> 阶级： </van-tag>
+            <van-tag> {{champion_data.data_champion_tier}} </van-tag>
+          </view>
+          <view class='content_stats_detail'>
+            <view wx:for='{{champion_data.data_champion_win_stats}}'>
+              <van-tag plain type="primary">胜率排行：</van-tag>
+              <van-tag type="primary">{{item.ranking_no}}/{{item.ranking_total}}</van-tag>
+              <van-tag plain> 胜率：</van-tag>
+              <van-tag>{{item.ranking_rate}}</van-tag>
+            </view>
+
+            <view wx:for='{{champion_data.data_champion_pick_stats}}'>
+              <van-tag plain type="primary">选用排行：</van-tag>
+              <van-tag type="primary">{{item.ranking_no}}/{{item.ranking_total}}</van-tag>
+              <van-tag plain> 选用率：</van-tag>
+              <van-tag>{{item.ranking_rate}}</van-tag>
+            </view>
+          </view>
+        </van-panel>
+        <!-- 召唤师技能推荐 -->
+        <van-panel title='召唤师技能推荐' class='panel-margin'>
+          <van-row class='rune_panel' wx:for='{{champion_data.data_champion_spell_list}}'>
+            <van-row>
+              <!-- main spell -->
+              <view class="van-hairline--surround">
+                <van-col span='4'>
+                  <image src='{{item.data_spell_url_main_}}' class='img_item'></image>
+                </van-col>
+              </view>
+              <!-- sub spell -->
+              <view class="van-hairline--surround">
+                <van-col span='4'>
+                  <image src='{{item.data_spell_url_sub_}}' class='img_item'></image>
+                </van-col>
+              </view>
+              <!-- match up rate -->
+              <view class="van-hairline--surround">
+                <van-col span='10'>
+                  <van-tag plain type="primary">相对登场率</van-tag>
+                  <van-tag type="primary">{{item.data_spell_matchup_}}</van-tag>
+                </van-col>
+              </view>
+              <!-- win rate -->
+              <view class="van-hairline--surround">
+                <van-col span='6'>
+                  <van-tag plain type="primary">胜率</van-tag>
+                  <van-tag type="primary">{{item.data_spell_winrate_}}</van-tag>
+                </van-col>
+              </view>
+            </van-row>
+
+          </van-row>
+        </van-panel>
+
+        <!-- 技能表 -->
+        <van-panel title="技能表" class='panel-margin'>
+          <view>
+            <van-tag wx:for='{{skill_list}}' class='content_skill' type="success">
+              {{item}}
+              <van-icon name="arrow"></van-icon>
+            </van-tag>
+          </view>
+        </van-panel>
+
+        <!-- 推荐出装 -->
+        <van-panel title="物品出装" desc='第一个数字为选取率，第二个数字为胜率' class='panel-margin'>
+          <!-- 出门装 -->
+          <van-panel title='出门装'>
+            <van-row>
+              <van-col span='24'>
+                <van-row gutter="20">
+                  <van-col span='24' wx:for="{{champion_data.data_champion_item_list}}">
+                    <van-col span='4' wx:for="{{item.init_item}}">
+                      <image src='{{item.item}}' class='img_item' wx:if="{{item.item}}">
+                      </image>
+                    </van-col>
+                    <van-col span='4' wx:for="{{item.init_item}}">
+                      <van-tag color="#f2826a" wx:if="{{item.rate}}">{{item.rate}}</van-tag>
+                    </van-col>
+                  </van-col>
+                </van-row>
+              </van-col>
+            </van-row>
+          </van-panel>
+          <!-- 成装 -->
+          <van-panel title='成装'>
+            <van-row>
+              <van-col span='24'>
+                <van-row gutter="20">
+                  <van-col span='24' wx:for="{{champion_data.data_champion_item_list}}">
+                    <van-col span='4' wx:for="{{item.recommend_item}}">
+                      <image src='{{item.item}}' class='img_item' wx:if="{{item.item}}">
+                      </image>
+                    </van-col>
+                    <van-col span='4' wx:for="{{item.recommend_item}}">
+                      <van-tag color="#f2826a" wx:if="{{item.rate}}">{{item.rate}}</van-tag>
+                    </van-col>
+                  </van-col>
+                </van-row>
+              </van-col>
+            </van-row>
+          </van-panel>
+          <!-- 鞋 -->
+          <van-panel title='鞋'>
+            <van-row>
+              <van-col span='24'>
+                <van-row gutter="20">
+                  <van-col span='24' wx:for="{{champion_data.data_champion_item_list}}">
+                    <van-col span='6' wx:for="{{item.shoes}}">
+                      <image src='{{item.item}}' class='img_item' wx:if="{{item.item}}">
+                      </image>
+                    </van-col>
+                    <van-col span='4' type='danger' wx:for="{{item.shoes}}">
+                      <van-tag color="#f2826a" wx:if="{{item.rate}}">{{item.rate}}</van-tag>
+                    </van-col>
+                  </van-col>
+                </van-row>
+              </van-col>
+            </van-row>
+          </van-panel>
+        </van-panel>
+        <!-- 符文推荐 -->
+        <van-panel title='符文推荐' class='panel-margin'>
+          <view class="van-hairline--bottom">
+            <van-row gutter="20" class='rune_panel'>
+              <van-col span='6' class='rune_list'> 主系</van-col>
+              <van-col span='6' class='rune_list'> 副系</van-col>
+              <van-col span='6' class='rune_list'> 天赋点</van-col>
+              <van-col span='6'></van-col>
+            </van-row>
+          </view>
+          <van-row wx:for='{{champion_data.data_champion_rune_list}}' class='rune_panel' gutter="20">
+            <view class="van-hairline--surround">
+              <van-col span='6' wx:for='{{item.main}}'>
+                <van-row wx:for='{{item.data_champion_rune_img_main}}'>
+                  <image class='img_rune' src='{{item}}'></image>
+                </van-row>
+              </van-col>
+            </view>
+            <view class="van-hairline--surround">
+              <van-col span='6' wx:for='{{item.sub}}' class='rune_panel'>
+                <van-row wx:for='{{item.data_champion_rune_img_sub}}'>
+                  <image class='img_rune' src='{{item}}'></image>
+                </van-row>
+              </van-col>
+            </view>
+            <view class="van-hairline--surround">
+              <van-col span='6' wx:for='{{item.fra}}' class='rune_panel'>
+                <van-row wx:for='{{item.data_champion_rune_img_fra}}'>
+                  <image class='img_rune' src='{{item}}'></image>
+                </van-row>
+              </van-col>
+            </view>
+            <view class="van-hairline--surround">
+              <van-col span='6' wx:for='{{item.rate}}' class='rune_panel'>
+                <van-row wx:if='{{item.data_champion_rune_pick}}' class='rune_list'>
+                  <van-row>
+                    <text>登场率：</text>
+                  </van-row>
+                  <van-row>
+                    <van-tag>{{item.data_champion_rune_pick}}</van-tag>
+                  </van-row>
+                </van-row>
+                <van-row wx:if='{{item.data_champion_rune_win}}' class='rune_list'>
+                  <van-row>
+                    <text>胜 率：</text>
+                  </van-row>
+                  <van-row>
+                    <van-tag>{{item.data_champion_rune_win}}</van-tag>
+                  </van-row>
+
+                </van-row>
+              </van-col>
+            </view>
+          </van-row>
+        </van-panel>
+        <!-- counter 和 beicounter -->
+        <van-panel title='英雄对位' class='panel-margin'>
+
+          <van-row class='rune_panel content_stats_detail'>
+            <van-col span='12'>对位劣势</van-col>
+            <van-col span='12'>对位优势</van-col>
+          </van-row>
+          <!-- against -->
+          <van-row span='24' class='rune_panel'>
+            <van-col span='12'>
+              <van-row wx:for='{{champion_data.data_champion_counter_list}}'>
+                <view class="van-hairline--right">
+                  <van-row>
+                    <image src='{{item.data_champion_counter_url_}}' class='img_rune'></image>
+                  </van-row>
+                </view>
+                <view class="van-hairline--right">
+                  <van-row>
+                    <van-tag size="large" type="primary">{{item.data_champion_counter_id}}</van-tag>
+                  </van-row>
+                </view>
+                <view class="van-hairline--bottom van-hairline--right">
+                  <van-row>
+                    <van-tag plain type="success">胜率</van-tag>
+                    <van-tag type="success">{{item.data_champion_counter_winrate_}}</van-tag>
+                  </van-row>
+                </view>
+              </van-row>
+            </van-col>
+            <!-- counter -->
+            <van-col span='12'>
+              <van-row wx:for='{{champion_data.data_champion_anticounter_list}}'>
+                <view class="van-hairline--left">
+                  <van-row>
+                    <image src='{{item.data_champion_anticounter_url_}}' class='img_rune'></image>
+                  </van-row>
+                </view>
+                <view class="van-hairline--left">
+                  <van-row>
+                    <van-tag size="large" type="primary">{{item.data_champion_anticounter_id}}</van-tag>
+                  </van-row>
+                </view>
+                <view class="van-hairline--left van-hairline--bottom">
+                  <van-row>
+                    <van-tag plain type="success">对位胜率</van-tag>
+                    <van-tag type="success">{{item.data_champion_anticounter_winrate_}}</van-tag>
+                  </van-row>
+                </view>
+              </van-row>
+            </van-col>
+          </van-row>
+        </van-panel>
+
+        <!-- END? -->
+      </view>
+    </van-tab>
+  </block>
+
+</van-tabs>
